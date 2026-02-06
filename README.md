@@ -1,1 +1,10 @@
-# graysense
+# Graysense
+Accurate observation of dynamic environments traditionally relies on synthesizing raw, signal-level information from multiple distributed sensors. This work investigates an alternative approach: performing geospatial inference using only encrypted packet-level information, without access to the raw sensory data itself. We further explore how this indirect information can be fused with directly available sensory data to extend overall inference capabilities. In this paper, we introduce GraySense, a learning-based framework that performs geospatial object tracking by analyzing indirect information from cameras with inaccessible streams. This information consists of encrypted wireless video transmission traffic, such as network-level packet sizes. GraySense leverages the inherent relationship between scene dynamics and the transmitted packet sizes of the video streams to infer object motion. The framework consists of two stages: (1) a Packet Grouping module that identifies frame boundaries and estimates frame sizes from encrypted network traffic, and (2) a Tracker module, based on a Transformer encoder with a recurrent state, which fuses these indirect, packet-based inputs with optional direct, camera-based, sensory inputs to estimate the object's position. Extensive experiments, conducted with realistic videos from the CARLA simulator and emulated networks under varying, imperfect conditions, show that GraySense achieves a high tracking accuracy of $2.25$ meters error (Euclidean distance) _without_ raw signal access. This error is reasonable relative to the smallest tracked object’s dimensions ($4.61 \text{m} \times 1.93 \text{m}$), enabling meaningful trajectory estimation. In summary, we demonstrate a method that performs geospatial inference using only encrypted traffic, without access to raw signals. To the best of our knowledge, such capability has not been previously observed, and it expands the use of latent signals available for sensing.
+
+
+## Paper
+This is the link to our paper: (arXiv link).
+
+
+## Codes
+Please reach out to us for access to the codes.
