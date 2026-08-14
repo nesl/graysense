@@ -3,8 +3,8 @@ Accurate observation of dynamic environments traditionally relies on synthesizin
 
 
 ## Paper
-This is the link to our paper: (arXiv link).
+This is the link to our paper: [arXiv link](https://arxiv.org/abs/2603.27811).
 
 
 ## Codes
-Please reach out to us for access to the codes.
+Please reach out to us for access to the codes: [carla-based](https://github.com/nesl/grayassets_carla) and [genesis-based](https://github.com/nesl/grayassets_genesis).
