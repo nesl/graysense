@@ -7,4 +7,4 @@ This is the link to our paper: [arXiv link](https://arxiv.org/abs/2603.27811).
 
 
 ## Codes
-Please reach out to us for access to the codes: [carla-based](https://github.com/nesl/grayassets_carla) and [genesis-based](https://github.com/nesl/grayassets_genesis).
+Please reach out to us for access to the codes: [carla-based simulation](https://github.com/nesl/grayassets_carla), [genesis-based simulation](https://github.com/nesl/grayassets_genesis), and [DNN models](https://github.com/carlvonclausewitz/gray_assets).
